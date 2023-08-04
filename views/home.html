@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercao Liebre</title>
+    <title>Mercado Liebre</title>
     <script src="https://kit.fontawesome.com/e4646141a1.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <img src="/images/logo-mercado-liebre.svg" alt=" logo mercado libre" >
-            <div>
-                <input type="search" name="q" id="buscar" placeholder="Buscar productos">
+<body class="home__body">
+    <header class="home__header">
+        <nav class="home__header--nav">
+            <img class="home__header--nav-logo" src="/images/logo-mercado-liebre.svg" alt=" logo mercado libre" >
+            <div class="home__header--nav-search">
+                <input type="search" name="buscar" id="buscar" placeholder="Buscar productos, marcas">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-             <div>
+             <div class="home__header--nav-text">
                 <i class="fa-solid fa-hand-holding-dollar"></i>
                 <p>Compra en cuotas y sin tarjeta</p>
             </div>
-            <div>
+            <div class="home__header--nav-links">
                 <ul>
                     <li><a href="#">ofertas</a></li>
                     <li><a href="#">Tiendas Oficiales</a></li>
@@ -32,6 +32,9 @@
                     <li><a href="#">Mis compras</a></li>
                 </ul>
             </div>
+            <div class="home__header--nav-burger">
+                <div><i class="fa-solid fa-bars"></i></div>
+            </div>
         </nav>     
     </header>
     <main class="main">
@@ -41,7 +44,7 @@
                 <img class="main__section-article--img" src="/images/img-cafetera-moulinex.jpg" alt="imagen cafetera" width="300">
                 <div>
                     <p class="price">$6.770</p>
-                    <p class="discount" class="discount">40% OFF</p>
+                    <p class="discount">40% OFF</p>
                     <h5 class="description">Cafetera Moulinex</h5>
                 </div>
             </article>
@@ -100,31 +103,33 @@
                 <img src="/images/img-tv-samsung-smart.jpg" alt="imagen samsung smart" width="300">
                 <div>
                     <p class="price">$23.200</p>
-                    < class="discount">>5% off</p>
+                    <p class="discount">5% off</p>
                     <h5 class="description">SmartTv Samsung 43"</h5>
                 </div>
             </article>
         </section>
     </main>
     <footer>
-        <div>
-            <div>
-                <p><b>Paga con efectivo</b></p>
+        <div class="footer__content">
+            <article class="footer__content--article">
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Paga con tarjeta o efectivo</h4>
                 <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                     puntos de pago. ¡Y siempre es seguro!</p>
-            </div>
-            <div>
-                <p><b>Envío gratis desde $ 2.500</b></p>
+            </article>
+            <article class="footer__content--article">
+                <i class="fa-solid fa-gift"></i>
+                <h4>Envío gratis desde $ 2.500</h4>
                 <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                     productos. Es un beneficio de Mercado Puntos.</p>
-            </div>
-            <div>
-                <p><b>Seguridad, de principio a fin</b></p>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                    puntos de pago. ¡Y siempre es seguro!</p>
-            </div>
+            </article>
+            <article class="footer__content--article">
+                <i class="fa-solid fa-user-shield"></i>
+                <h4>Seguridad, de principio a fin</h4>
+                <p>¿No te gusta? ¡Devolvelo! En mercado libre no hay nada que no puedas hacer porque estas siempre protegid@.</p>
+            </article>
         </div>
-        <small>Copyright © 1999-2020 MercadoLiebre S.R.L.</small>
+        <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 
     </footer>
 </body>
