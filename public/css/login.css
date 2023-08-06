@@ -8,7 +8,6 @@ body.login{
     gap: 20px;
     width: 300px;
     margin: 20px auto;
-    background-color: #fff;
 }
 .form__login input, .form__login button{
     height: 35px;
@@ -22,8 +21,15 @@ body.login{
     color: var(--colorLightGray);
     font-weight: 600;
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.8s ease;
 }
-
+.form__login button:hover{
+    background-color: #0022AA;
+}
+.footer__login{
+    background-color: #fff;
+}
 @media (min-width:481px) {
     .form__login{
         width: 400px;

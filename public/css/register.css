@@ -3,6 +3,7 @@ body.register{
 }
 
 .form__box{
+
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -16,6 +17,7 @@ body.register{
 .form__box h3{
     font-size: 1.2rem;
     color: var(--colorDarkGray);
+
 }
 .form__box h4{
     color: var(--colorDarkGray);
@@ -84,6 +86,10 @@ body.register{
     letter-spacing: 2px;
     color: #fff;
     cursor: pointer;
+    transition: all 0.8s ease;
+}
+.form__box--button button[type=reset]:hover{
+    background-color: #292929e7;
 }
 .form__box--button button[type=submit]{
     font-size: 1rem;
@@ -94,9 +100,12 @@ body.register{
     letter-spacing: 2px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.8s ease;
 }
-
-/* FOOTER */
+.form__box--button button[type=submit]:hover{
+   background-color: #0022AA;
+}
+/* footer */
 footer{
     background-color: var(--colorLightGray);
 }
