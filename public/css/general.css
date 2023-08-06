@@ -1,12 +1,13 @@
 :root{
-    --typoRoboto: 'Roboto', sans-serif;
-    --colorAmarillo: #EAC926;
-    --colorAzul: #03264C;
-    --colorCeleste: #1259c3;
-    --colorgrisOscuro:#666;
-    --colorgrisClaro: #ebebeb;
-    --colorVerde:#39b54a;
+    --tipografiaRoboto: 'Roboto', sans-serif;
+    --colorYellow: #EAC926;
+    --colorBlue: #03264C;
+    --colorSkyBlue: #1259c3;
+    --colorDarkGray:#666;
+    --colorLightGray: #ebebeb;
+    --colorGreen:#39b54a;
 }
+
 
 *{
     padding: 0;
@@ -15,7 +16,7 @@
     font-family: var(--typoRoboto);
 }
 header{
-    background-color: var(--colorAmarillo);
+    background-color: var(--colorYellow);
 }
 
 p{
