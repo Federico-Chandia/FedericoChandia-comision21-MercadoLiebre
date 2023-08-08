@@ -1,125 +1,77 @@
-body.register{
-    background-color: #fff;;
+main{
+    background-color: #ebebeb;
 }
 
-.form__box{
-
+.mainRegister{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width:320px;
-    padding: 2%;
-    margin: 15px auto;
-    background-color: var(--colorLightGray);
-    box-shadow: 0 0 20px var(--colorLightGray);
-    border-radius: 6px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding-top: 10px;
 }
-.form__box h3{
-    font-size: 1.2rem;
-    color: var(--colorDarkGray);
+
+.mainRegister input {
+    border: none;
+    padding: 13px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.mainRegister h5{
+    font-weight: bold; 
+    font-size: 16px;
+    margin-top: 20px;
 
 }
-.form__box h4{
-    color: var(--colorDarkGray);
-    width: 100%;
-}
-.form__box input{
-    height: 45px;
-    border: none;
-    border-radius: 5px;
-    padding: 0 10px;
-    outline: none;
-}
-.form__box label{
-    font-size: 0.9rem;
-}
-.form__box--date{
+
+.usuarioPerfil{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-.form__box--usuario{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.box--usuario-radio{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-}
-.form__box--usuario label:first-child{
-    margin-right: 10px;
-}
-.form__box--intereses-checkbox{
-    display: flex;
-    align-items: center;
-    gap: 15px;
 }
 
-.form__box input[type=file]{
-    display: none;
-}
-.form__box--file{
-    height: 45px;
+.usuarioPerfil li{
     display: flex;
-    background-color: #fff;
+    flex-direction: row-reverse;
+    justify-content: start;
     align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    font-size: 0.9rem;
 }
 
-.form__box--button{
+.usuarioPerfil div{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    margin: 10px 0;
 }
-.form__box--button button[type=reset]{
-    background-color: var(--colorDarkGray);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.8s ease;
+
+.intereses {
+    display: flex;
+    flex-direction: column;
 }
-.form__box--button button[type=reset]:hover{
-    background-color: #292929e7;
-}
-.form__box--button button[type=submit]{
-    font-size: 1rem;
-    background-color: var(--colorSkyBlue);
-    color: var(--colorLightGray);
-    padding: 10px 20px;
-    border: none;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.8s ease;
-}
-.form__box--button button[type=submit]:hover{
-   background-color: #0022AA;
-}
-/* footer */
-footer{
-    background-color: var(--colorLightGray);
-}
-@media (min-width:481px) {
+
+.intereses li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .buttons{
+    display: flex;
     
-}
-@media (min-width:769px) {
-    .form__box{
-        width: 400px;
-    }
-    .form__box h3{
-        font-size: 1.5rem;
-    }
-    .form__box input{
-        font-size: 1rem;
-    }
-}
+  }
+
+  .buttons button{
+    background-color: rgba(8, 8, 162, 0.864);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin: 30px;
+    border-radius: 10px;
+
+  }
+
+  .subtitulosRegister{
+    font-weight: bold;
+  }
